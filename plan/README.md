@@ -35,7 +35,7 @@ Trevor is a 30-year-old voter who usually doesn't pay attention to politics. How
 
 ### Erica - eligible voter for 2020 election
 
-<img src="img/erica.jpg width=200">
+<img src="img/erica.jpg" width=200>
 
 Erica is a 21-year-old American who usually stays up-to-date on current events and politics. She is in-tune with what has been happening over these last few months leading up to the election. She does struggle with trusting news sources and often uses social media as a news source. She comes to the site looking to learn more about the news sources and how they view things. This will help her get a better understanding of which news sources will be bias towards a certain side or policy. 
 
