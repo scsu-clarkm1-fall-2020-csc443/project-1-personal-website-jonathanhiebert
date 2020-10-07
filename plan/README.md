@@ -29,13 +29,13 @@ The primary goals of the site and corresponding objectives are given below.
 There are two user categories that are expected to make up the bulk of traffic to hitthepolls.com.
 ### Trevor - eligible voter for 2020 election
 
-<img src="img/trevor.jpg">
+<img src="img/trevor.jpg" width=200>
 
 Trevor is a 30-year-old voter who usually doesn't pay attention to politics. However, with the recent push to have every eligible voter exercise their right to vote, Trevor has felt it is his responsibility to educate himself on who he should vote for based on his aligning opinions or values. Trevor comes to this site seeking information about the election deadlines, and where he should vote. 
 
 ### Erica - eligible voter for 2020 election
 
-<img src="img/erica.jpg">
+<img src="img/erica.jpg width=200">
 
 Erica is a 21-year-old American who usually stays up-to-date on current events and politics. She is in-tune with what has been happening over these last few months leading up to the election. She does struggle with trusting news sources and often uses social media as a news source. She comes to the site looking to learn more about the news sources and how they view things. This will help her get a better understanding of which news sources will be bias towards a certain side or policy. 
 
