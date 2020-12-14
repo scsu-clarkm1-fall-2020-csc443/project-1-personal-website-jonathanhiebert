@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Use Your Right - The 2020 Election Info Hub</title>
+</head>
+
+<body>
+    <header id="header" class="text-center">
+        <div id="head-img" class="row justify-content-around">
+            <img src="img/banner-img.png">
+        </div>
+        <nav class="text-center">
+            <a class="col-md col-12" href="index.html">Home</a>
+            <a class="col-md col-12" href="about.html">About</a>
+            <a class="col-md col-12" href="news.html">News Sources and Their Biases</a>
+            <a class="col-md col-12" href="pres.html">Presidential Comparison</a>
+            <a class="col-md col-12" href="state.html">State/Local Elections</a>
+        </nav>
+    </header>
+    <section id="countdown">
+        
+        <div class="container-fluid">
+            <div class="row text-center mx-5 my-3">
+                <h1 class="col display-3 mb-0">Countdown to Election Day 2020</h1>
+            </div>
+            <div class="row justify-content-around text-center mb-3">
+                <p class="col-md-5 col-sm-8 border display-4 font-weight-bold" id="timer"></p>
+                <script> // script is from
+            var countDownDate = new Date("Nov 3, 2020 6:00:00").getTime();
+
+            
+            var x = setInterval(function() {
+                
+                var now = new Date().getTime();
+
+                var distance = countDownDate - now;
+
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+                if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("timer").innerHTML = `<a style="font-weight:normal;font-size:40px; color:#a52234;" href="https://www.google.com/search?q=2020+election+results&oq=202+&aqs=chrome.1.69i57j69i59l2j0i67i457j0i67i131i433j69i61l3.1142j0j7&sourceid=chrome&ie=UTF-8" target="_blank">The Election Has Ended <br>Check Out the Results</a>`;
+                }
+            }, 1000);
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <h2 class="text-center text-dark py-3 mb-0">Welcome to the 2020 Election Information Hub!</h2>
+            <hr>
+            <div id="intro" class="row mx-5">
+                <p class="offset-md-2 col-md-8 col-12">
+                    In today's culture, there seems to be this idea that views on political issues are strictly binary. Democrat or Republican, Liberal or Conservative. This ideology can be confusing for many people who find themselves in the middle on certain topics. Media sources are increasingly unreliable, social media sides with each user's beliefs, and candidates' stances on certain topics can be confusing.<br><br> This site serves as a one-stop shop for news about this upcoming election. Check out our analysis of:
+                </p>
+            </div>
+            <ul id="intro-list" class="row mx-5 text-center">
+                <p class="col-1"></p>
+                <li class="col-md-3 col-sm-12 mt-3 mb-3">
+                    <button class="btn btn-outline-secondary text-uppercase mb-4 col"onclick="document.location.href='news.html'">News Sources and Their Biases</button>
+                </li>
+                <li class="col-md-3 col-sm-12 mt-3 mb-3">
+                    <button class="btn btn-outline-secondary text-uppercase mb-4 col"onclick="document.location.href='pres.html'">The 2020 Presidential Candidates</button>
+                </li>
+                <li class="col-md-3 col-sm-12 mt-3 mb-3">
+                    <button class="btn btn-outline-secondary text-uppercase mb-4 col"onclick="document.location.href='state.html'">The CT State Election Candidates</button>
+                </li>
+            </ul>
+            <div class="row mx-3 mt-4 h-100 mb-5">
+                <div id="recent-news" class="border border-secondary col-lg col-12 mb-3">
+                    <h3 class="pt-3 pb-1">Recent Election News</h3>
+                    <ul class="text-left">
+                        <li class="col pb-1">
+                            <a href="https://www.bbc.com/news/election-us-2020-54742419">US Election 2020: Trump and Biden duel in critical state of Florida - <p id="bold-text">BBC News</p></a>
+                        </li>
+                        <li class="col pb-1">
+                            <a href="https://www.cnbc.com/2020/10/30/election-2020-live-updates.html">Election 2020 updates: Postal Service ordered to ensure ballot delivery on time - <p id="bold-text">CNBC</p></a>
+                        </li>
+                        <li class="col pb-1">
+                            <a href="https://www.nytimes.com/interactive/2020/10/27/us/elections/election-2020-questions.html">The Anxious Person's Guide to the 2020 Election - <p id="bold-text">The New York Times</p></a>
+                        </li>
+                        <li class="col pb-1">
+                            <a href="https://www.foxnews.com/politics/election-2020-polls-trump-biden-battleground-states">Election 2020 polls show Biden leading Trump in key battleground states, Florida a tossup - <p id="bold-text">Fox News</p></a>
+                        </li>
+                        <li class="col pb-1">
+                            <a href="https://www.cnn.com/politics/live-news/us-election-news-10-30-2020/index.html">US Election Live Updates - <p id="bold-text">CNN</p></a>
+                        </li>
+                        <li class="col pb-1">
+                            <a href="https://www.npr.org/2020/11/02/930464598/election-2020-cities-and-businesses-prepare-for-post-election-unrest-violence">Election 2020: Cities And Businesses Prepare For Post-Election Unrest, Violence - <p id="bold-text">NPR</p></a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-secondary text-uppercase mb-4 col-4"onclick="document.location.href='news.html'">Learn More</button>
+                </div>
+                <div class="col-lg col-12 mb-3">
+                    <img src="img/biden_and_trump.jpeg" class="w-100 border border-dark">
+
+                </div>
+                <div id="dates" class="border border-secondary col-lg col-12m mb-3">
+                    <h3 class="pt-3 pb-1 px-4">Important Dates and Deadlines for CT</h3>
+                    <ul class="text-left">
+                        <li>Online Voter Registration Deadline - <p id="bold-text">Oct. 27th</p></li>
+                        <li>Mail Postmark Voter Registration Deadline - <p id="bold-text">Oct. 27th</p></li>
+                        <li>In-Person Voter Registration Deadline - <p id="bold-text">Oct. 27th</p></li>
+                        <li>Absentee Ballots Available - <p id="bold-text">Friday, Oct. 2nd</p></li>
+                        
+                    </ul>
+                    <button class="btn btn-outline-secondary text-uppercase mb-4 col-4" onclick="document.location.href='about.html'">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="survey" class="container text-center"></div>
+    <h2 class="text-center mt-5">Enjoying the site? Let us know below!</h2>
+    <div class="row">
+        <div class="col-8 offset-2 offset-md-3">
+            <script>(function(t,e,s,n){var o,a,c;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),a=o[o.length-1],c=e.createElement(s),c.type="text/javascript",c.async=!0,c.id=n,c.src="https://widget.surveymonkey.com/collect/website/js/tRaiETqnLgj758hTBazgd4b9NZzN9gelDP4I_2F75J2BDfJQ5y6tTpRA_2FRGLwc3rPC.js",a.parentNode.insertBefore(c,a))})(window,document,"script","smcx-sdk");</script>
+        </div>
+    </div>
+    <footer id="footer" class="mt-5">
+        <div class="container-fluid bg-dark">
+            <div class="row text-light py-3">
+                <div class="col-md col-sm-12 text-md-left text-center">@ 2020 Use Your Right</div>
+                <div class="col-md-8 col-sm-12 text-md-center text-center">
+                    <a class="col-md col-sm-4" href="index.html">Home</a>
+                    <a class="col-md col-sm-4" href="about.html">About</a>
+                    <a class="col-md col-sm-12" href="news.html">News Sources and Their Biases</a>
+                    <a class="col-md col-sm-6" href="pres.html">Presidential Comparison</a>
+                    <a class="col-md col-sm-6" href="state.html">State/Local Comparisons</a></div>
+                <div class="col-md col-sm-12 text-md-right text-center">Use Your Right To Vote</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

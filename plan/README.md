@@ -1,8 +1,8 @@
-# Site Plan - hitthepolls.com
+# Site Plan - useyourright.com
 
 ## Overview
 
-The aim of hitthepolls.com is to compile a reliable collection of useful voting information for this upcoming Election Day. 
+The aim of useyourright.com is to compile a reliable collection of useful voting information for this upcoming Election Day. 
 
 In today's culture, there seems to be this idea that views on political issues are binary. Democrat or Republican, Liberal or Conservative. This ideology can be confusing for many people who find themselves in the middle on certain topics. Additionally, media sources are increasingly unreliable, which forces many to resort to alternatives for of information gathering such as social media. This can lead to false information being spread because of the lack of verification on social media. This site will serve as a one-stop-shop for news about this upcoming election, including the candidates involved, news sources, and basic information about where and how to vote during the pandemic. 
 
